@@ -39,7 +39,7 @@ userSeq=[];
 level++;
 h3.innerText= `Level ${level}`;
  //random button generate
-let rIdx=Math.floor((Math.random()*3));
+let rIdx=Math.floor((Math.random()*4));
 let rColor=btns[rIdx];
 let rBtn=document.querySelector(`.${rColor}`);
 
